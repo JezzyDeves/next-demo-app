@@ -10,7 +10,7 @@ export default function Page() {
         </p>
         <p>Produces this page</p>
         <div className="m-2">
-          <LinkButton href="/overview/layouts">Next</LinkButton>
+          <LinkButton href="/overview/layout">Next</LinkButton>
         </div>
       </div>
     </div>
