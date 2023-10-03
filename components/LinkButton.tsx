@@ -8,7 +8,7 @@ interface Props extends PropsWithChildren {
 export default function LinkButton({ href, children }: Props) {
   return (
     <Link
-      className="text-center text-sky-500 hover:bg-sky-800 hover:text-white transition-colors rounded p-2"
+      className="rounded p-2 text-center text-sky-500 transition-colors hover:bg-sky-800 hover:text-white"
       href={href}
     >
       {children}
