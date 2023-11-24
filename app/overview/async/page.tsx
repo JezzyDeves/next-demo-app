@@ -1,3 +1,5 @@
+import LinkButton from "@/components/LinkButton";
+
 export default async function Page() {
   const { message } = await (
     await fetch("http://localhost:3000/api/greet", {
@@ -13,6 +15,7 @@ export default async function Page() {
           This message came from the server API
         </p>
         {message}
+        <LinkButton href="/overview/state/first">Next</LinkButton>
       </div>
     </>
   );

@@ -10,9 +10,11 @@
     "format": "prettier . --write"
   },
   "dependencies": {
+    "immer": "^10.0.3",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "zustand": "^4.4.6"
   },
   "devDependencies": {
     "@types/node": "latest",
